@@ -13,7 +13,7 @@ public class Main4 {
             return true;
         return false;
     }
-    
+
     public static int ReplaceDigit(String a, char b){
         a = a.replace('?', b);
         int n = Integer.parseInt(a);
@@ -27,11 +27,11 @@ public class Main4 {
         String q = eq.substring(eq.indexOf(0) + 1,eq.lastIndexOf('+'));
         String w = eq.substring(eq.indexOf('+') + 1,eq.lastIndexOf('='));
         String e = eq.substring(eq.indexOf('=') + 1);
-        char[] digits = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
+        char[] digits = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '0'};
         int q_final = 0, w_final = 0, e_final = 0, count = 0;
-        System.out.println(q);
-        System.out.println(w);
-        System.out.println(e);
+        // System.out.println(q);
+        // System.out.println(w);
+        // System.out.println(e);
         for(int i = 0; i < 9; i++)
         {
             for(int j = 0; j < 9; j++)
@@ -56,7 +56,7 @@ public class Main4 {
                         break;
         }
         if(count == 0)
-        System.out.println("NULL");
+            System.out.println("NULL");
         in.close();
     }
 }
