@@ -51,11 +51,11 @@ public class Main4 {
                         System.out.println(q_final + " + " + w_final + " = " + e_final);
                         count++;
                     }
-                    if (count == 1)
-                        break;
+                    // if (count == 1)
+                    //     break;
                 }
-                if (count == 1)
-                    break;
+                // if (count == 1)
+                //     break;
             }
             if (count == 1)
                 break;
